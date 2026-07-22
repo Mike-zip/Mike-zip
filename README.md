@@ -13,7 +13,7 @@ Relevant Coursework: Digital Logic Design, Combinational and Sequential Circuits
 Parameterizable UART core with independent transmit and receive datapaths and an AXI4-Lite register interface for runtime configuration and status.
 
 **Design decisions**
-- Asynchronous FIFO with Gray-coded read/write pointers for safe data transfer between the AXI clock domain and the UART sampling domain
+- Synchronous FIFO with binary read/write pointers for data buffering between the AXI interface and UART logic
 - 2-flop input synchronizer and 16x oversampling receiver for asynchronous bit recovery on the RX line
 
 
