@@ -2,7 +2,7 @@
 
 **Digital hardware: RTL design & verification (Verilog) | Bare-metal embedded (ARM Cortex-A9)**
 
-B.S. Electrical Engineering, Washington State University, expected May 2028. Currently interning at Schweitzer Engineering Laboratories, doing hands-on hardware failure analysis on protection relays: tracing circuits through schematics, chasing failures to root cause with oscilloscopes and X-ray inspection, then reworking the boards and testing until they work again, all in a NERC CIP environment.
+B.S. Electrical Engineering, Washington State University, expected May 2028. Currently interning at Schweitzer Engineering Laboratories, doing hands-on hardware failure analysis on protection relays: tracing circuits through schematics, chasing failures to root cause with DMMs, oscilloscopes, and X-ray inspection then reworking the boards and testing until they work again, all in a NERC CIP environment.
 
 Relevant Coursework: Digital Logic Design, Combinational and Sequential Circuits, Microprocessors.
 
