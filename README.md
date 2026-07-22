@@ -1,6 +1,6 @@
 # Michael Marquis
 
-**Digital hardware: RTL design & verification (SystemVerilog) | Bare-metal embedded (ARM Cortex-A9)**
+**Digital hardware: RTL design & verification (Verilog) | Bare-metal embedded (ARM Cortex-A9)**
 
 B.S. Electrical Engineering, Washington State University, expected May 2028. Currently interning at Schweitzer Engineering Laboratories, doing hands-on hardware failure analysis on protection relays: tracing circuits through schematics, chasing failures to root cause with oscilloscopes and X-ray inspection, then reworking the boards and testing until they work again, all in a NERC CIP environment.
 
@@ -18,8 +18,8 @@ Parameterizable UART core with independent transmit and receive datapaths and an
 
 
 **Verification**
-- Self-checking SystemVerilog testbench that loops 256 bytes through the core and gates PASS / FAIL on an error counter
-- SystemVerilog assertions verifying the AXI4-Lite VALID / READY handshake
+- Self-checking Verilog testbench that loops 256 bytes through the core and gates PASS / FAIL on an error counter
+- Verilog testbenches verifying the AXI4-Lite VALID / READY handshake
 
 **Status:** transmit path complete and verified. Receive-path loopback verification in progress.
 
